@@ -65,8 +65,8 @@ let itemPrice = 10;
 if (balance >= itemPrice) {
   console.log("You can buy the items");
   console.log("Now you balance is: ", balance);
-  let afterBuyedItems = balance - itemPrice;
-  console.log("After Purchase the items you balance is: ", afterBuyedItems);
+  balance -= itemPrice;
+  console.log("After Purchase the items you balance is: ", balance);
 } else {
   console.log("You do not have enought balance to  buy the item");
 }
