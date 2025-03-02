@@ -1,4 +1,3 @@
-
 let a = 10;
 let b = 3;
 
@@ -25,3 +24,17 @@ console.log("Modulus:", remainder);
 // 6. Exponentiation
 let power = a ** b; // 10^3 = 1000
 console.log("Exponentiation:", power);
+
+// Challanges
+
+// calculat the total weight of ship
+
+let baseWeight = 10000;
+let foodWeight = 100;
+let passengerWeight = 10;
+let fuelUnitWeight = 2;
+let fulesUnit = 100;
+
+let totalWeight = baseWeight + foodWeight + passengerWeight + (fuelUnitWeight * fulesUnit);
+
+console.log('Total weight of Spaceship is:' , totalWeight);
