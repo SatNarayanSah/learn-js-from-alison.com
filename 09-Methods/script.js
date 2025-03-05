@@ -26,3 +26,5 @@ console.log(Player);
 
 
 // NOTE: Methods declaration:- Function declare as an object property use this Keyword to acces "the current object" and its Property
+
+// Methods are object property that are Functions
